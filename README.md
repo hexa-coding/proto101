@@ -1,2 +1,3 @@
 # proto101
- reproduce the initial name tags prototype uing jQuery
+Reproduce the initial name tags prototype uing jQuery
+In this self proposed exercise, the target is a functional web application.
