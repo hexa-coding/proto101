@@ -2,16 +2,39 @@
 <html lang="en">
 
 <head>
+  <title>Easy Tags - Home</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Easy Tags - Home</title>
+  <meta name="refresh" content="600">
+  <meta name="description"
+    content="Welcome to Easy Tags. Create a ready-to-print PDF with your name tags in less than 5 minutes.">
+  <meta name="keywords" content="Name Tags PDF print">
+  <meta name="author" content="Didier">
+
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+
+  <!-- Script and dependencies for the Print PDF function -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+  <script src="script/generatePDF.js"></script>
+
 </head>
 
 
 <body>
-  <p>Hello World</p>
-  <p>Sunshine today</p>
+  <div id="top-level-div">
+
+    <div id="size-and-design"></div>
+    <p>Sunshine today in size and design</p>
+
+    <div id="live-print-area"></div>
+    <p>See the present in live print area</p>
+
+    <div id="names-list"></div>
+    <p>Fill in your names list here</p>
+
+  </div>
 </body>
 
 
